@@ -8,6 +8,11 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  /* Här används rem istället för px eftersom px är ett fast värde.
+  Rem underlättar för tillgängligheten.
+  Den som vill ha större text får större text!*/
+  font-size: 1rem;
+  line-height: 1.6;
   color: #222222;
   background-color: #fffaf3;
 }
