@@ -182,6 +182,11 @@ Valde därför endast brödtext så att knappen och h2 inte ändras.
   line-height: 1.6;
 }
 
+/* Ändrade färgen för länk-hover i header till något ljusare som har godkänd kontrast enligt WCAG */
+header a:hover {
+  color: #F39595;
+}
+
 /* 
 KONTRASTKONTROLL
 
