@@ -27,6 +27,24 @@ header h1 {
   margin: 0 0 8px;
 }
 
+h1 {
+  font-family: Georgia, serif;
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
 nav ul {
   list-style: none;
   margin: 0;
