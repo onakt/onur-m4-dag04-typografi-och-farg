@@ -25,24 +25,37 @@ header {
 
 header h1 {
   margin: 0 0 8px;
+  color: #ffffff;
 }
 
 h1 {
   font-family: Georgia, serif;
   font-size: 1.75rem;
   line-height: 1.2;
+  color: #3b2418;
 }
 
 h2 {
   font-family: Georgia, serif;
   font-size: 1.75rem;
   line-height: 1.2;
+  color: #3b2418;
 }
 
 h3 {
   font-family: Georgia, serif;
   font-size: 1.25rem;
   line-height: 1.2;
+  color: #3b2418;
+}
+
+/* Länkar får en egen färg och tydlig hover */
+a {
+  color: #8c1010;
+}
+
+a:hover {
+  color: #5e0a0a;
 }
 
 nav ul {
@@ -80,6 +93,10 @@ article img,
   border-radius: 4px;
 }
 
+.pris {
+  color: #8c1010;
+}
+
 .knapp {
   display: inline-block;
   background-color: #8c1010;
@@ -88,6 +105,11 @@ article img,
   border: 0;
   border-radius: 6px;
   text-decoration: none;
+}
+
+.knapp:hover {
+  background-color: #6f0c0c;
+  color: #ffffff;
 }
 
 footer {
