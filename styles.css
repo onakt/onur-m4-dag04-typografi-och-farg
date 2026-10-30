@@ -132,6 +132,25 @@ inputs, textarea och selects.
   outline-offset: 2px;
 }
 
+/* Ingen spec för padding. Använder 8px så länge */
+.falt :is(input, textarea, select) {
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 2px solid #8a7a6a;
+  border-radius: 6px;
+  font: inherit;
+}
+
+/* Etiketterna blir fetstilta */
+.falt label {
+  font-weight: 700;
+}
+
+/* Etiketterna blir fetstilta */
+legend {
+  font-weight: 700;
+}
+
 footer {
   background-color: #2b1c14;
   color: #ffffff;
@@ -146,6 +165,23 @@ address {
   font-style: normal;
 }
 
+/* Padding ska finnas med enligt steg 7, men står inget om det i design.md?
+Har lagt till egen padding så länge.
+*/
+#hero {
+  background-color: #f3e3cf;
+  padding: 16px 24px;
+}
+
+/* Visste inte riktigt om jag skulle ändra all text i hero eller endast brödtext.
+Valde därför endast brödtext så att knappen och h2 inte ändras.
+*/
+#hero p {
+  font-family: system-ui;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
 /* 
 KONTRASTKONTROLL
 
@@ -154,4 +190,6 @@ Verktyg: https://webaim.org/resources/contrastchecker
 Brödtext mot bakgrund - 15.31 : 1 - PASS
 Vit text mot röd knapp - 9.55 : 1 - PASS
 Länkfärg mot bakgrund - 9.2 : 1 - PASS
+Länkfärg (hover) mot sidhuvud - 1.36 : 1 - FAIL!!!
+Länkfärg (hover, ökat lightness) #F39595 - 4.58 : 1 - PASS
 */

@@ -52,11 +52,11 @@ Hero-sektionen får bakgrund, `padding` och större text. Formulärfälten får 
 
 ## Kontrollista: så vet du att du är klar
 
-- [ ] Typsnitt, storlekar och radavstånd matchar `design.md`.
-- [ ] All brödtext och alla knappar klarar kontrastkravet 4,5:1, och du har dokumenterat det.
-- [ ] Länkar och knappar har hover-läge.
-- [ ] Det finns en tydlig fokusmarkering, och du har testat med Tab.
-- [ ] Formuläret är läsbart och fälten är lätta att träffa.
+- [X] Typsnitt, storlekar och radavstånd matchar `design.md`.
+- [X] All brödtext och alla knappar klarar kontrastkravet 4,5:1, och du har dokumenterat det.
+- [X] Länkar och knappar har hover-läge.
+- [X] Det finns en tydlig fokusmarkering, och du har testat med Tab.
+- [X] Formuläret är läsbart och fälten är lätta att träffa.
 - [ ] Du har pushat till din fork och skickat in länken.
 
 ## Tips om du fastnar
