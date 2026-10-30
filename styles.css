@@ -125,3 +125,13 @@ footer a {
 address {
   font-style: normal;
 }
+
+/* 
+KONTRASTKONTROLL
+
+Verktyg: https://webaim.org/resources/contrastchecker
+
+Brödtext mot bakgrund - 15.31 : 1 - PASS
+Vit text mot röd knapp - 9.55 : 1 - PASS
+Länkfärg mot bakgrund - 9.2 : 1 - PASS
+*/
