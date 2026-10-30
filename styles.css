@@ -58,6 +58,11 @@ a:hover {
   color: #5e0a0a;
 }
 
+a:focus-visible {
+  outline: 3px solid #1a73e8;
+  outline-offset: 2px;
+}
+
 nav ul {
   list-style: none;
   margin: 0;
@@ -107,9 +112,24 @@ article img,
   text-decoration: none;
 }
 
+.knapp:focus-visible {
+  outline: 3px solid #1a73e8;
+  outline-offset: 2px;
+}
+
 .knapp:hover {
   background-color: #6f0c0c;
   color: #ffffff;
+}
+
+/* Lärde mig att använda :is() istället för att göra 3 separata selektorer!
+Vet inte om jag har valt rätt saker att ändra fokus på, men försökte följa
+uppgiften genom att endast välja klassen "falt" och att det ska vara just
+inputs, textarea och selects.
+*/
+.falt :is(input, textarea, select):focus-visible {
+  outline: 3px solid #1a73e8;
+  outline-offset: 2px;
 }
 
 footer {
